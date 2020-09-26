@@ -46,6 +46,12 @@ namespace PrestamoTarea.BLL
 
             try
             {
+                Personas persona = new Personas();
+                persona = PersonasBLL.Buscar(prestamo.PersonaId);
+                prestamo.Balance += prestamo.Monto;
+                persona.Balance = prestamo.Balance;
+                PersonasBLL.Guardar(persona);
+
                 contexto.Prestamos.Add(prestamo);
                 Insertado = (contexto.SaveChanges() > 0);
             }
@@ -67,6 +73,11 @@ namespace PrestamoTarea.BLL
 
             try
             {
+                Personas persona = new Personas();
+                persona = PersonasBLL.Buscar(prestamo.PersonaId);
+                prestamo.Balance += prestamo.Monto;
+                persona.Balance = prestamo.Balance;
+                PersonasBLL.Guardar(persona);
                 contexto.Entry(prestamo).State = EntityState.Modified;
                 Modificado = (contexto.SaveChanges() > 0);
             }
@@ -89,6 +100,11 @@ namespace PrestamoTarea.BLL
             try
             {
                 var prestamo = contexto.Prestamos.Find(id);
+                Personas persona = new Personas();
+                persona = PersonasBLL.Buscar(prestamo.PersonaId);
+                persona.Balance -= prestamo.Balance;
+                PersonasBLL.Guardar(persona);
+
                 contexto.Entry(prestamo).State = EntityState.Deleted;
                 Eliminado = (contexto.SaveChanges() > 0);
 

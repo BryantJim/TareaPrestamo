@@ -77,6 +77,20 @@ using PrestamoTarea.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 10 "C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\_Imports.razor"
+using Blazored.Toast;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\_Imports.razor"
+using Blazored.Toast.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\Pages\FetchData.razor"
 using PrestamoTarea.Data;
 

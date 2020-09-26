@@ -147,4 +147,3 @@ C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTareaTests\obj\Debug\netcor
 C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTareaTests\obj\Debug\netcoreapp3.1\PrestamoTareaTests.dll
 C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTareaTests\obj\Debug\netcoreapp3.1\PrestamoTareaTests.pdb
 C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTareaTests\obj\Debug\netcoreapp3.1\PrestamoTareaTests.genruntimeconfig.cache
-C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTareaTests\bin\Debug\netcoreapp3.1\Data\Prestamo.db

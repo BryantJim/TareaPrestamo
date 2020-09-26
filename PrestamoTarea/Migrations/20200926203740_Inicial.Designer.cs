@@ -9,7 +9,7 @@ using PrestamoTarea.DAL;
 namespace PrestamoTarea.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20200926183402_Inicial")]
+    [Migration("20200926203740_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

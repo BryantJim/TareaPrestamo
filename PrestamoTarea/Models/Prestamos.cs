@@ -12,7 +12,7 @@ namespace PrestamoTarea.Models
         public int PrestamoId { get; set; }
 
         [Required(ErrorMessage = "Campo obligatorio")]
-        public DateTime Fecha { get; set; }
+        public DateTime Fecha { get; set; } = DateTime.Now;
 
         [Required(ErrorMessage = "Campo obligatorio")]
         public int PersonaId { get; set; }

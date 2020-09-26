@@ -96,3 +96,4 @@ C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\obj\Debug\netcoreapp3
 C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\obj\Debug\netcoreapp3.1\PrestamoTarea.dll
 C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\obj\Debug\netcoreapp3.1\PrestamoTarea.pdb
 C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\obj\Debug\netcoreapp3.1\PrestamoTarea.genruntimeconfig.cache
+C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\bin\Debug\netcoreapp3.1\Data\Prestamo.db

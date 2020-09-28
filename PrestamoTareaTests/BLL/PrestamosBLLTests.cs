@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using PrestamoTarea.Models;
 
 namespace PrestamoTarea.BLL.Tests
 {
@@ -12,7 +13,19 @@ namespace PrestamoTarea.BLL.Tests
         [TestMethod()]
         public void GuardarTest()
         {
-            Assert.Fail();
+            bool paso;
+            Prestamos prestamo = new Prestamos
+            {
+                PrestamoId = 0,
+                Fecha = DateTime.Now,
+                PersonaId = 0,
+                Concepto = "Prestamo universitario",
+                Monto = 200,
+                Balance = 0
+            };
+            paso = PrestamosBLL.Guardar(prestamo);
+
+            Assert.AreEqual(paso, true);
         }
 
         [TestMethod()]

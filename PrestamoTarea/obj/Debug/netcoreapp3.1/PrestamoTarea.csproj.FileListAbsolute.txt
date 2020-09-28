@@ -100,3 +100,4 @@ C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\obj\Debug\netcoreapp3
 C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\obj\Debug\netcoreapp3.1\Razor\Pages\Registros\RPersonas.razor.g.cs
 C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Registros\RPrestamos.razor.g.cs
 C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\obj\Debug\netcoreapp3.1\Razor\Pages\Registros\RPrestamos.razor.g.cs
+C:\Users\AnthonyB\source\repos\TareaPrestamo\PrestamoTarea\bin\Debug\netcoreapp3.1\firebase.json

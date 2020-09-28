@@ -13,14 +13,18 @@ namespace PrestamoTarea.BLL.Tests
         [TestMethod()]
         public void GuardarTest()
         {
-            Personas persona = new Personas();
-            persona.PersonaId = 2;
-            persona.Nombres = "Anthony";
-            persona.Cedula = "402-1286181-5";
-            persona.FechaNacimiento = DateTime.Now;
-            persona.Balance = 2000;
-            bool guardo = PersonasBLL.Guardar(persona);
-            Assert.IsTrue(guardo);
+            bool paso;
+            Personas persona = new Personas
+            {
+                PersonaId = 0,
+                Nombres = "Anthony",
+                Cedula = "402-1002050-2",
+                FechaNacimiento = DateTime.Now,
+                Balance = 0
+            };
+            paso = PersonasBLL.Guardar(persona);
+
+            Assert.AreEqual(paso, true);
         }
 
         [TestMethod()]
@@ -48,7 +52,16 @@ namespace PrestamoTarea.BLL.Tests
         [TestMethod()]
         public void GetListTest()
         {
-            Assert.IsTrue(true);
+            bool Lista;
+            List<Personas> List = new List<Personas>();
+            List = PersonasBLL.GetList(P => true);
+
+            if (List != null)
+                Lista = true;
+            else
+                Lista = false;
+
+            Assert.IsTrue(Lista);
         }
     }
 }
